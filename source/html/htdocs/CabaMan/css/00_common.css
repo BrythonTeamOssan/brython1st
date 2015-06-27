@@ -6,7 +6,7 @@ body {
 
 header {
 	height: 136px;
-	background: url(../content/bg_header.png) repeat-x 0 0;
+	background: repeat-x 0 0;
 	overflow: hidden;
 }
 
@@ -20,19 +20,16 @@ article {
 	width: 100%;
 	display: table;
 	border-spacing: 40px;
-	background: #ff69b4;
 }
 
 footer {
 	width: 100%;
 	display: table;
-	background: #fff;
 	border-spacing: 40px;
 }
 
 .gamen-title {
 	height: 74px;
-	background: url(../content/bg_tit.png) repeat;
 	font-size: 36px;
 	line-height: 76px;
 	text-align: center;
@@ -47,6 +44,7 @@ footer {
 	line-height: 76px;
 	text-align: center;
 	font-style: italic;
+	font-family: "‚l‚r ‚o–¾’©",sans-serif;
 }
 
 
@@ -158,7 +156,6 @@ input[type="button"]:hover {
 
 /* ƒƒCƒ“ƒGƒŠƒA */
 .mainarea {
-	background-color: white;
 	color: #ff00ff;
 	height: 1056px;
 	width:2480px;

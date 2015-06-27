@@ -5,107 +5,58 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/00_common.css">
-	<link rel="stylesheet" href="css/04_customerinfo.css">
+	<link rel="stylesheet" href="css/03_visitschedule.css">
+	<link rel="stylesheet" href="css/jquery-ui.css" >
 	<script type="text/javascript" src="javascript/lib/jquery-1.11.2.min.js"></script>
-	<script type="text/javascript" src="javascript/04_customerinfo.js"></script>
+	<script type="text/javascript" src="javascript/lib/jquery-ui-1.11.4.js"></script>
+	<script type="text/javascript" src="javascript/lib/jquery.ui.datepicker-ja.js"></script>
+	<script>
+	  $(function() {
+	   $( "#datepicker" ).datepicker({
+		  showOn: "button",
+		  buttonImage: "content/btn_calendar.png",
+		  buttonImageOnly: true,
+		  buttonText: "カレンダー選択"
+		});
+	  });
+	  </script>
 </head>
 <body>
 
 	<header>
-		<p id="logo-area"><img src="content/img_logo.png" alt="Remote Order Entry"></p>
-		<nav class="progress-area">
-			<ul class="progress-box">
-				<li id="progress-color2"><img src="content/img_header_flow_customer_info_active.png" alt="お客様情報"></li>
-				<li><img src="content/img_header_flow_service_select.png" alt="サービス選択"></li>
-				<li><img src="content/img_header_flow_price_simulation.png" alt="料金シュミレーション"></li>
-				<li><img src="content/img_header_flow_other_company_option.png" alt="関連他社オプション"></li>
-				<li><img src="content/img_header_flow_important_description.png" alt="重要事項説明"></li>
-				<li><img src="content/img_header_flow_payment_way.png" alt="支払方法"></li>
-				<li><img src="content/img_header_flow_initial_cost.png" alt="初期費用工事情報"></li>
-				<li><img src="content/img_header_flow_confirm_order.png" alt="契約内容確認"></li>
-			</ul>
-		</nav>
+		<p id="logo-area"><img src="" alt=""></p>
+		<div id="version-area">
+			<p>ver 999.99.99</p>
+			<p>ようこそ　坂田くん</p>
+		</div>
 	</header>
 
 	<article>
-		<div class = "mainarea">
-			<table class="table-size table-fix G04-table-body">
-				<tr>
-					<td class="G04-table-text1 G04-table-title" >お客様番号</td>
-					<td class="G04-table-text2"                 >012345</td>
-					<td class="G04-table-text3 G04-table-title" >ハウス</td>
-					<td class="G04-table-text4"                 >9088776</td>
-				</tr>
-				<tr>
-					<td class="G04-table-title"                        >お客様カナ名</td>
-					<td                                                >スズキ　イチロウ</td>
-					<td class="G04-table-blank" colspan="2" rowspan="2"></td>
-				</tr>
-				<tr>
-					<td class="G04-table-title">お客様名</td>
-					<td                        >鈴木　一郎</td>
-				</tr>
-				<tr>
-					<td class="G04-table-title" >生年月日</td>
-					<td                         >1970/4/1</td>
-					<td class="G04-table-title" >性別</td>
-					<td                         >男性</td>
-				</tr>
-				<tr>
-					<td class="G04-table-title" rowspan="2"            >ご住所（設置先）</td>
-					<td                                                >156-0044</td>
-					<td class="G04-table-blank" colspan="2" rowspan="4"></td>
-				</tr>
-				<tr>
-					<td>東京都世田谷区赤堤1-1-1</td>
-				</tr>
-				<tr>
-					<td class="G04-table-title" >建物名</td>
-					<td                         >赤堤パークハウス</td>
-				</tr>
-				<tr>
-					<td class="G04-table-title" >号棟・号室</td>
-					<td                         >1号棟・101号室</td>
-				</tr>
-				<tr>
-					<td class="G04-table-title" >電話番号</td>
-					<td                         >03-1234-9876</td>
-					<td class="G04-table-title" >携帯番号</td>
-					<td                         >090-1234-4321</td>
-				</tr>
-				<tr>
-					<td class="G04-table-title" >クラスター</td>
-					<td                         >3D双・N7</td>
-					<td class="G04-table-title" >住居形態</td>
-					<td                         >SDU</td>
-				</tr>
-				<tr>
-					<td class="G04-table-title" >工区</td>
-					<td                         >引込可能</td>
-					<td class="G04-table-title" >引込形態</td>
-					<td                         >過去分記録なし</td>
-				</tr>
-				<tr>
-					<td class="G04-table-title" >電波障害情報</td>
-					<td                         >地デジ対象</td>
-					<td class="G04-table-title" >ステップ</td>
-					<td                         >なし</td>
-				</tr>
-				<tr>
-					<td class="G04-table-title"            >MUX_REF</td>
-					<td                                    >0000000</td>
-					<td class="G04-table-blank" colspan="2"></td>
-				</tr>
+		<div id="main-area">
+			<p class="G03-visitschedule-title">キャスト情報（スプラッシュ　まさみ）</p>
+			<table class="zebra" id="customertable" style="border:0px;">
+			<tr>
+				<td style="border:0px;">
+					<img src="./image/588_1.jpg" />
+				</td>
+				<td width="800px" style="border:0px;">
+					<img src="http://chart.apis.google.com/chart?cht=r
+					&amp;chd=t:80,70,99,60,50,100
+					&amp;chs=300x200
+					&amp;chls=3,0,0
+					&amp;chxt=x,y
+					&amp;chxl=0:|Str|Vit|Agi|Dex|Int|Luk|1:|||||
+					&amp;chm=B,FF990080,0,0,5"
+					width="100%" />
+				</td>
+			<tr>
 			</table>
-		</div>
+		</div><!--/#main-area-->
 	</article>
 
 	<footer>
-		<p class="footer-button-left"><input type="button" class="button-style button-color-red" value="お客様情報変更"></p>
-		<p class="footer-button-right"><input type="button" class="button-style button-color-gray" onClick="location.href ='./03_visitschedule.html';" value="中断"></p>
-		<p class="footer-button-right"><input type="button" class="button-style button-color-red" onClick="location.href ='./05_serviceselect_01_plan.html';" value="次>>"></p>
+		<p class="footer-button-right"><input type="button"  class="button-style button-color-gray" onClick="location.href ='./03_visitschedule.html';" value="戻る"></p>
 	</footer>
-
 </body>
 </html>
 
