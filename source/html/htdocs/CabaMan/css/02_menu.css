@@ -1,0 +1,82 @@
+/* ヘッダー */
+#version-area {
+	float: right;
+	width: 2298px;
+	height: 136px;
+	color: #333;
+	padding: 10px 40px 0;
+}
+#version-area p {
+	font-size: 36px;
+	text-align: right;
+}
+
+
+/* メニュー */
+.G02-menu-area {
+	color: #000066;
+	height: 925px;
+}
+
+.G02-menu-button input {
+	border: 1px solid #DDDDDD;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	color: #FFFFFF;
+	font-size: 48px;
+	max-height: 999999px;
+	width: 700px;
+	height: 160px;
+}
+
+.G02-left-td {
+	width: 40%;
+	max-height: 999999px;
+	padding: 20px 0;
+}
+
+.G02-center-td {
+	width: 10%;
+	padding: 20px 0;
+}
+
+.G02-right-td {
+	width: 40%;
+	max-height: 999999px;
+	padding: 20px 0;
+}
+
+.G02-news-title {
+	width: 70%;
+	height: 80px;
+	margin: 40px 0 0 370px;
+	text-align: center;
+	padding: 15px 0;
+	background: #ff1493;
+	border: 1px solid #ff1493;
+	font-size: 30px;
+}
+
+.G02-news-body {
+	width: 70%;
+	height: 220px;
+	margin: 0 0 0 370px;
+	background-color: white;
+	border: 5px solid #87CEEB;
+	border-top: none;
+	font-size: 35px;
+}
+
+
+.G02-button-blue {
+	background: #4169E1;
+}
+
+.G02-button-orange {
+	background: #FF8C00;
+}
+
+.G02-button-green {
+	background: #228B22;
+}

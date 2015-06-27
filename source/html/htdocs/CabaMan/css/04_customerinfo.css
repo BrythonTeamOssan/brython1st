@@ -1,0 +1,25 @@
+/* å⁄ãqèÓïÒ */
+.G04-table-body {
+	background-color: white;
+	font-size: 30px;
+}
+
+.G04-table-body td {
+	padding: 5px 20px;
+}
+
+.G04-table-text1 { width: 20%; }
+.G04-table-text2 { width: 45%; }
+.G04-table-text3 { width: 10%; }
+.G04-table-text4 { width: 25%; }
+
+.G04-table-title {
+		background-color: #d8eaff;
+		color: #004391;
+}
+
+.G04-table-blank { background-color: #486dcd; }
+
+.G04-table-body tr:nth-child(even) {
+	background-color: #f1fae8;
+}

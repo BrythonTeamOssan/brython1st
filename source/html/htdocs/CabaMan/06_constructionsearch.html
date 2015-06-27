@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/00_common.css">
+	<link rel="stylesheet" href="css/06_constructionsearch.css">
+	<script type="text/javascript" src="javascript/lib/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+
+	<header>
+		<p id="logo-area"><img src="content/img_logo.png" alt="Remote Order Entry"></p>
+		<nav class="progress-area">
+			<ul class="progress-box">
+				<li><img src="content/img_header_flow_customer_info.png" alt="お客様情報"></li>
+				<li><img src="content/img_header_flow_service_select.png" alt="サービス選択"></li>
+				<li><img src="content/img_header_flow_price_simulation.png" alt="料金シュミレーション"></li>
+				<li><img src="content/img_header_flow_other_company_option.png" alt="関連他社オプション"></li>
+				<li><img src="content/img_header_flow_important_description.png" alt="重要事項説明"></li>
+				<li><img src="content/img_header_flow_payment_way.png" alt="支払方法"></li>
+				<li id="progress-color"><img src="content/img_header_flow_initial_cost_active.png" alt="初期費用工事情報"></li>
+				<li><img src="content/img_header_flow_confirm_order.png" alt="契約内容確認"></li>
+			</ul>
+		</nav>
+	</header>
+
+	<article>
+	<div class = "mainarea">
+		<div style="height:40%">
+			<p class="gamen-title">工事日程検索</p>
+			<table class="table-size table-fix">
+				<tr>
+					<td width="25%" align="right">
+					<table class="G06-kouji-table-left">
+						<tr>
+							<td colspan="3" style="text-align:center; padding: 50px 0;">必要工事数</td>
+						</tr>
+						<tr>
+							<td>
+								(2人班)
+							</td>
+							<td class="G06-text-point">
+								4
+							</td>
+							<td>
+								ポイント
+							</td>
+						</tr>
+					</table>
+					</td>
+
+					<td width="5%"></td>
+
+					<td width="70%">
+						<table class="G06-kouji-table-right">
+							<tr>
+								<td style="padding: 50px 40px;">
+									エリア
+								</td>
+								<td style="padding:0 0;">
+									<select name="selArea" size="1">
+										<option value="init">▼－エリアを指定して下さい－▼</option>
+										<option value="エリア1">エリア1</option>
+										<option value="エリア2">エリア2</option>
+										<option value="エリア3">エリア3</option>
+									</select>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									検索開始日
+								</td>
+								<td style="padding:0 0;">
+									<input type="text" class="G06-text-date" value="2015年5月26日（木）"/>
+								</td>
+								<td>
+									<input type="button"  class="button-style button-color-skyblue" value="検索">
+								</td>
+							</tr>
+
+						</table>
+					</td>
+				<tr/>
+			</table>
+		</div>
+
+		<div style="height:60%" align="center">
+			<table class="table-fix G06-kouji-table-bottom">
+				<tr class="G06-kouji-table-bottom-title">
+					<td>時間帯</td>
+					<td>工事候補日１<br>5/26(火)</td>
+					<td>工事候補日２<br>5/27(水)</td>
+				</tr>
+				<tr>
+					<td>9:30-12:00</td>
+					<td>
+						<input type="radio" id="radio_kouji_1" name="selkouji" value="kouji_1"/>
+						<div><span><label for="radio_kouji_1" id="lab_kouji_1">10ポイント</label></span></div>
+					</td>
+					<td>
+						<input type="radio" id="radio_kouji_2" name="selkouji" value="kouji_2"/>
+						<div><span><label for="radio_kouji_2" id="lab_kouji_2">5ポイント</label></span></div>
+					</td>
+				</tr>
+				<tr>
+					<td>13:00-15:30</td>
+					<td>
+						<input type="radio" id="radio_kouji_3" name="selkouji" value="kouji_3"/>
+						<div><span><label for="radio_kouji_3" id="lab_kouji_3">4ポイント</label></span></div>
+					</td>
+					<td>
+						<input type="radio" id="radio_kouji_4" name="selkouji" value="kouji_4"/>
+						<div><span><label for="radio_kouji_4" id="lab_kouji_4">8ポイント</label></span></div>
+					</td>
+				</tr>
+				<tr>
+					<td>15:30-18:00</td>
+					<td>
+						<input type="radio" id="radio_kouji_5" name="selkouji" value="kouji_5"/>
+						<div><span><label for="radio_kouji_5" id="lab_kouji_5">5ポイント</label></span></div>
+					</td>
+					<td>
+						<input type="radio" id="radio_kouji_6" name="selkouji" value="kouji_6"/>
+						<div><span><label for="radio_kouji_6" id="lab_kouji_6">15ポイント</label></span></div>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+	</div>
+	</article>
+
+	<footer>
+		<p class="footer-button-left"><input type="button"  class="button-style button-color-gray" onClick="location.href ='./05_serviceselect_01_plan.html';" value="&lt;&lt;前"></p>
+		<p class="footer-button-right"><input type="button"  class="button-style button-color-gray" onClick="location.href ='./03_visitschedule.html';" value="中断"></p>
+		<p class="footer-button-right"><input type="button"  class="button-style button-color-red" onClick="location.href ='./07_constructionregist.html';" value="次&gt;&gt;"></p>
+	</footer>
+</body>
+</html>
+

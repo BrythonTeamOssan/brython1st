@@ -1,0 +1,109 @@
+#version-area {
+	float: right;
+	width: 2298px;
+	height: 136px;
+	color: #333;
+	padding: 10px 40px 0;
+}
+#version-area p {
+	font-size: 36px;
+	text-align: right;
+}
+
+
+/* ÉçÉOÉCÉì */
+.G01-blank-area1 {
+	height: 100px;
+}
+
+.G01-blank-area2 {
+	height: 50px;
+}
+
+.G01-logintext-area {
+	color: #000066;
+
+	height: 40%;
+}
+
+.G01-loginbutton-area {
+	height: 60%;
+}
+
+.G01-logintext-table {
+	height: 100%;
+	width: 100%;
+}
+
+.G01-loginbutton-table {
+	height: 100%;
+	width: 100%;
+}
+
+.G01-loginblank-td {
+	width: 35%;
+	font-size: 40px;
+	max-height: 999999px;
+}
+
+.G01-loginlabel-td {
+	width: 10%;
+	text-align: left;
+	font-size: 40px;
+	max-height: 999999px;
+}
+
+.G01-logintext-td {
+	width: 55%;
+	align: left;
+	max-height: 999999px;
+	padding: 10px 0;
+}
+
+.G01-textbox {
+	border: 8px solid #DDDDDD;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	font-size: 40px;
+	max-height: 999999px;
+	padding: 10px 0;
+	width: 300px;
+	background-color: #FFFBF0;
+}
+
+.G01-center-td {
+	text-align: center;
+	padding: 20px 0 0 50px;
+}
+
+.G01-exitbutton-td {
+	width: 40%;
+	max-height: 999999px;
+}
+
+.G01-loginbutton {
+	background: #228B22;
+	border: 1px solid #DDDDDD;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	color: #FFFFFF;
+	font-size: 40px;
+	max-height: 999999px;
+	padding: 20px 0;
+	width: 250px;
+}
+
+.G01-exitbutton {
+	background: #FF8C00;
+	border: 1px solid #DDDDDD;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	color: #FFFFFF;
+	font-size: 40px;
+	max-height: 999999px;
+	padding: 20px 0;
+	width: 250px;
+}

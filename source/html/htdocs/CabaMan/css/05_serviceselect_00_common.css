@@ -1,0 +1,300 @@
+/* サービス選択 */
+.order-summary-inner {
+	box-shadow: 0px -8px 8px #e6e6e6 inset;
+	padding: 30px 30px 5px;
+}
+
+.G05-service-title {
+	height: 74px;
+	background: url(../content/bg_tit.png) repeat;
+	font-size: 36px;
+	line-height: 76px;
+	text-align: center;
+}
+
+.G05-order-title {
+	height: 50px;
+	background-color: #03bb5a;
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 50px;
+	margin: 0 0 20px;
+}
+
+
+/* プラン */
+.G05-plan-label {
+	list-style: none;
+	margin-bottom:20px;
+}
+
+.G05-plan-label input {
+	display: none;
+}
+
+.G05-plan-label-noselect {
+	display:inline-block;
+	border: 2px solid #ffa800;
+	color: #ffa800;
+	border-radius: 50px;
+	font-size: 32px;
+	margin: 0 10px 10px 0;
+	padding: 8px 20px;
+}
+
+.G05-cat-select {
+	display:inline-block;
+	background: #ffa800;
+	border: 2px solid #ffa800;
+	color: #fff;
+	border-radius: 50px;
+	font-size: 32px;
+	margin: 0 10px 10px 0;
+	padding: 8px 20px;
+}
+
+
+
+
+/* 初期費用、月額費用 */
+.G05-price-title {
+	color: #333;
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
+
+/* 初期費用 */
+.G05-init-cost-wrapper {
+	background: #fbdadc;
+	border-top: 1px solid #fff;
+	padding: 10px 40px 20px;
+}
+
+.G05-table-init-cost {
+	width: 99.5%;
+	background: #fff;
+	font-size: 32px;
+	border: 2px solid #666;
+}
+
+.G05-table-init-cost tr:last-child {
+	border-top: 2px solid #e4e4e4;
+}
+
+.G05-table-init-cost tr td{
+	border-style: solid;
+}
+
+.G05-table-init-cost-total {
+	background-color: #e4e4e4;
+}
+
+.G05-table-init-cost-total .G05-table-init-cost-val label {
+	color: #cb0808;
+}
+
+.G05-table-init-cost-title {
+	padding:4px 0 4px 5px;
+}
+
+.G05-table-init-cost-val {
+	padding:4px 5px 4px 0;
+	text-align: right;
+}
+
+.G05-table-init-cost-val span {
+	font-size: 20px;
+}
+
+.G05-table-init-cost-td {
+	padding:10px 10px;
+}
+
+.G05-table-init-cost td label {
+	padding: 10px;
+}
+
+
+/* 月額費用 */
+.G05-total-fee-wrapper {
+	background: #fff;
+	padding: 10px 40px 20px;
+}
+
+.G05-table-total-fee {
+	width: 99.5%;
+	background: #fff;
+	font-size: 32px;
+	border: 2px solid #666;
+}
+
+.G05-table-total-fee tr:last-child {
+	border-top: 2px solid #e4e4e4;
+}
+
+.G05-table-total-fee tr td{
+	border-style: solid;
+}
+
+.G05-table-total-fee-total {
+	background-color: #e4e4e4;
+}
+
+.G05-table-total-fee-total .G05-table-total-fee-val label {
+	color: #cb0808;
+}
+
+.G05-table-total-fee-title {
+	padding:4px 0 4px 5px;
+}
+
+.G05-table-total-fee-val {
+	padding:4px 5px 4px 0;
+	text-align: right;
+}
+
+.G05-table-total-fee-val span {
+	font-size: 20px;
+}
+
+.G05-table-total-fee-td {
+	padding:10px 10px;
+}
+
+.G05-table-total-fee td label {
+	padding: 10px;
+}
+
+.G05-sel-plan {
+	display:inline-block;
+	background: #ffa800;
+	border: 2px solid #ffa800;
+	color: white;
+	border-radius: 50px;
+	font-size: 32px;
+	margin: 0 10px 10px 0;
+	padding: 7px 20px;
+}
+
+/* レイアウト */
+#sub-area {
+	width: 540px;
+	height: 1055px;
+	display: table-cell;
+	background: #fff;
+}
+
+#main-area {
+	width: 1900px;
+	height: 1055px;
+	display: table-cell;
+	background: #fff;
+	overflow: hidden;
+	border-spacing: 0;
+}
+
+#main-area2 {
+	width: 1900px;
+	height: 1055px;
+	background: #fff;
+	border-spacing: 0;
+}
+
+
+/* フッター */
+footer ul {
+	background: #03bb5a;
+	list-style: none;
+	display: table-cell;
+}
+
+footer ul li {
+	float: left;
+	background: #c3ecd7;
+	color: #009a49;
+	font-size: 44px;
+	font-weight: bold;
+	position: relative;
+	margin-left:44px;
+}
+
+footer ul li:not(:first-child):before {
+	border-left: 40px solid transparent;
+	border-top: 50px solid #c3ecd7;
+	border-bottom: 50px solid #c3ecd7;
+	content: "";
+	position: absolute;
+	right: 50%;
+	top: 0;
+	margin-right: 50%;
+}
+
+footer ul li:not(:last-child):after {
+	border-left: 40px solid #c3ecd7;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: 50%;
+}
+
+footer ul li input {
+	width: 373px;
+	height: 100px;
+	text-align:center;
+}
+
+footer ul li input[type="button"] {
+	box-shadow: none;
+}
+
+footer ul li.button-current {
+	width: 374px;
+	background: #03bb5a;
+	color: #fff;
+}
+
+footer ul li:last-child.button-current {
+	width: 373px;
+}
+
+footer ul li.button-current:not(:first-child):before {
+	border-top: 50px solid #03bb5a;
+	border-bottom: 50px solid #03bb5a;
+}
+
+footer ul li.button-current:not(:last-child):after {
+	border-left: 40px solid #03bb5a;
+}
+
+footer ul li.button-current span {
+	position: absolute;
+	top: -40px;
+	left: 40%;
+	border-top: 38px solid #486dcd;
+	border-right: 32px solid transparent;
+	border-left: 32px solid transparent;
+}
+
+.input-previous {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.input-next {
+	float: right;
+	width: 370px;
+}
+
+.input-back {
+	float: right;
+	width: 370px;
+	margin-left: 40px;
+}
+
+

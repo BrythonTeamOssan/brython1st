@@ -1,0 +1,153 @@
+/* メニュー(プラン、カテゴリ、オプション)選択 */
+.G05-plan-label input:checked+div {
+	color: #fff;
+	border: 4px solid #fff;
+	border-radius: 50px;
+	margin: -4px -16px;
+	padding: 0px 12px;
+}
+
+.G05-table-plan {
+	width: 473px;
+	height: 980px;
+	display: table-cell;
+	vertical-align:middle;
+	background: url(../content/bg_select_plan.png) repeat-y 0 0;
+	font-size: 32px;
+	margin:0;
+}
+
+.G05-table-plan ul {
+	list-style: none;
+	padding: 0 54px 0 40px;
+}
+
+.G05-table-plan li:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.G05-table-plan li div {
+	width: 380px;
+	height: 130px;
+	padding:0;
+	background-color: #fff;
+	border: 8px solid #ffb72d;
+	border-radius: 12px;
+	color: #fcab11;
+	font-size: 35px;
+	font-weight: bold;
+	box-shadow:0px 4px 0px #cbcbcb;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.G05-table-plan div label {
+	display:block;
+}
+
+.G05-table-plan li input {
+	display: none;
+}
+
+.G05-table-plan input:checked+div {
+	padding: 8px;
+	background-color: #ffa800;
+	border: none;
+	border-radius: 12px;
+	color: #fff;
+	text-shadow: 0px 2px 0px #d98044;
+	box-shadow:0px 4px 0px rgba(204, 85, 6,.75);
+	position: relative;
+}
+
+.G05-table-plan input:checked+div:after {
+	border-left: 55px solid #ffa800;
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 34%;
+	margin-left: 50%;
+}
+
+.G05-table-plan input:checked+div span {
+	width: 364px;
+	height:134px;
+	display: table-cell;
+	vertical-align: middle;
+	border: 8px solid #fff;
+	border-radius: 6px;
+}
+
+#div_opt1 {
+	background-color: #ffdb97;
+}
+
+.G05-table-option-list input {
+	display: none;
+}
+
+.G05-table-option-list {
+	font-size: 40px;
+	border-collapse: separate;
+	border-spacing: 5px;
+	margin: 0 15px;
+
+}
+
+.G05-table-option-list tr td {
+	padding:5px 5px;
+}
+
+.G05-table-option-list tr td div {
+	padding:10px 5px;
+}
+
+.G05-table-option-list td:nth-of-type(2) div {
+	text-align: left;
+	background-color: #fff;
+	border: 4px solid #ffb72d;
+	border-radius: 12px;
+	color: #fcab11;
+}
+
+.G05-table-option-list td:nth-of-type(3) div {
+	text-align: right;
+	background-color: #8AC556;
+	border-radius: 12px;
+}
+
+
+.G05-table-option-list input:checked+div {
+	background-color: #FF9638;
+	color: #FFFFFF;
+}
+
+.G05-table-option-list td label {
+	display:block;
+}
+
+/* 選択メニュー詳細 */
+.G05-table-content {
+	width: 1426px;
+	display: table-cell;
+	overflow-y:scroll;
+	margin: 0 0 0 15px;
+}
+
+/* フッター */
+footer ul {
+	background: #03bb5a;
+	list-style: none;
+	display: table-cell;
+}
+
+footer ul li:first-child {
+	margin-left: 0;
+}
+
+footer ul li:first-child>input {
+	width: 418px;
+}

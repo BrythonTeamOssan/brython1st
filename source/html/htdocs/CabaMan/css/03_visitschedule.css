@@ -1,0 +1,164 @@
+
+/* ÉwÉbÉ_Å[ */
+#version-area {
+	float: right;
+	width: 2298px;
+	height: 136px;
+	color: #333;
+	padding: 10px 40px 0;
+}
+#version-area p {
+	font-size: 36px;
+	text-align: right;
+}
+
+
+/* ñKñ‚ó\íËåüçı */
+
+#main-area {
+	width: 100%;
+	height: 1056px;
+	background: #fff;
+}
+
+.G03-visitschedule-title {
+	height: 74px;
+	background: url(../content/bg_tit.png) repeat;
+	font-size: 36px;
+	line-height: 76px;
+	text-align: center;
+}
+
+.G03-ymd-wrapper {
+	height: 56px;
+	margin:40px 0 44px;
+	text-align: center;
+}
+
+.ymd-btn {
+	border-radius: 12px;
+	color: #fff;
+	font-size: 32px;
+	font-weight: bold;
+	max-height: 999999px;
+	padding: 3px 0;
+	width: 105px;
+	height: 56px;
+	margin: 0 40px;
+}
+
+.ymd-text {
+	width: 240px;
+	height: 60px;
+	background:#FFFBF0;
+	border: 2px solid #f1f1f1;
+	font-size: 32px;
+	text-align: center;
+	margin-right: 20px;
+}
+
+.ui-datepicker-trigger {
+	margin-top: -12px;
+}
+
+.G03-ma-listarea-list-btn1 {
+	background: #8ac556;
+	border-radius: 100px;
+	color: #FFFFFF;
+	font-size: 32px;
+	max-height: 999999px;
+	padding: 10px 0;
+	width: 220px;
+	box-shadow: none !important;
+}
+
+.G03-ma-listarea-list-btn2 {
+	background: #ff606f;
+	border-radius: 100px;
+	color: #FFFFFF;
+	font-size: 30px;
+	max-height: 999999px;
+	padding: 10px 0;
+	width: 220px;
+	box-shadow: none !important;
+}
+
+.G03-ma-listarea-list-btn3 {
+	background: #ff9638;
+	border-radius: 100px;
+	color: #FFFFFF;
+	font-size: 30px;
+	max-height: 999999px;
+	padding: 10px 0;
+	width: 220px;
+	box-shadow: none !important;
+}
+
+.G03-ma-buttonarea-td {
+	width: 377px;
+	text-align: center;
+}
+
+
+.G03-colsize-vis_date    { width: 297px; text-align: center; }
+.G03-colsize-name        { width: 297px; }
+.G03-colsize-address     { width: 598px; }
+.G03-colsize-tel_no      { width: 297px; }
+.G03-colsize-status      { width: 297px; text-align: center; }
+.G03-colsize-kouji_date  { width: 297px; text-align: center; }
+th.G03-colsize-server_sync { width: 297px; text-align: center; border-right: none !important; }
+td.G03-colsize-server_sync { width: 296px; text-align: center; border-right: none !important; }
+
+#customertable {
+	width: 2380px;
+	border: 4px solid #bababa;
+	border-collapse: collapse;
+	font-size: 32px;
+	margin: 44px 50px 64px;
+}
+
+#customertable tr:nth-child(odd) {
+	/* thÇÃçsÇ©ÇÁêîÇ¶ÇƒäÔêîçsÇÃîwåiêFÇê›íËÇµÇ‹Ç∑ÅB */
+	background-color: #fff;
+}
+#customertable tr:nth-child(even) {
+	/* thÇÃçsÇ©ÇÁêîÇ¶ÇƒãÙêîçsÇÃîwåiêFÇê›íËÇµÇ‹Ç∑ÅB */
+	background-color: #f1fae8;
+}
+
+.customertable-body-style {
+	display: block;
+	height: 696px;
+	overflow-y: scroll;
+}
+
+.zebra table {
+	table-layout:fixed;
+	border-collapse: collapse;
+}
+
+.zebra td, .zebra th {
+	height: 115px;
+	padding: 10px;
+	border: 2px solid #bababa;
+	border-top: none;
+	border-bottom: none;
+	word-wrap:break-word;
+	table-layout:fixed;
+}
+
+.zebra th {
+	height: 75px;
+	border-bottom: 4px solid #bababa;
+	text-align: center;
+	background-color: #d8eaff;
+	color: #004391;
+}
+
+.alternate {
+	background: #ffdddd;
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+	-moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+	box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+}
+

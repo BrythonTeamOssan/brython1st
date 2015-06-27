@@ -1,0 +1,76 @@
+/* メニュー(プラン、カテゴリ、オプション)選択 */
+
+.G05-table-plan {
+	width: 473px;
+	height: 980px;
+	display: table-cell;
+	vertical-align:middle;
+	background: url(../content/bg_select_plan.png) repeat-y 0 0;
+	font-size: 32px;
+	margin:0;
+}
+
+.G05-table-plan ul {
+	list-style: none;
+	padding: 0 54px 0 40px;
+}
+
+.G05-table-plan li:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.G05-table-plan li div {
+	width: 380px;
+/*	height: 150px;*/
+	height: 165px;
+	padding:0;
+	background-color: #fff;
+	border: 8px solid #ffb72d;
+	border-radius: 12px;
+	color: #fcab11;
+	font-size: 44px;
+	font-weight: bold;
+	box-shadow:0px 4px 0px #cbcbcb;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.G05-table-plan div label {
+	display:block;
+}
+
+.G05-table-plan li input {
+	display: none;
+}
+
+.G05-table-plan input:checked+div {
+	padding: 8px;
+	background-color: #ffa800;
+	border: none;
+	border-radius: 12px;
+	color: #fff;
+	text-shadow: 0px 2px 0px #d98044;
+	box-shadow:0px 4px 0px rgba(204, 85, 6,.75);
+	position: relative;
+}
+
+.G05-table-plan input:checked+div:after {
+	border-left: 55px solid #ffa800;
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 34%;
+	margin-left: 50%;
+}
+
+/* 選択メニュー詳細 */
+.G05-table-content {
+	width: 1426px;
+	display: table-cell;
+	vertical-align:middle;
+	margin: 0;
+}
+
