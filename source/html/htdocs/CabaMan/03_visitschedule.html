@@ -24,116 +24,92 @@
 <body>
 
 	<header>
-		<p id="logo-area"><img src="content/img_logo.png" alt="Remote Order Entry"></p>
+		<p id="logo-area"><img src="" alt=""></p>
 		<div id="version-area">
 			<p>ver 999.99.99</p>
-			<p>9999 : ●●●●●●</p>
+			<p>ようこそ　坂田くん</p>
 		</div>
 	</header>
 
 	<article>
 		<div id="main-area">
-			<p class="G03-visitschedule-title">訪問予定日</p>
+			<p class="G03-visitschedule-title">キャスト一覧</p>
 			<div class="G03-ymd-wrapper">
 				<input type="button" class="ymd-btn button-color-gray" value="前日">
-				<input type="text" class="ymd-text" id="datepicker" value="2015/05/28">
+				<input type="text" class="ymd-text" id="datepicker" value="2015/06/27">
 				<!--<input type="button" class="calendar-btn" value="">-->
 				<input type="button" class="ymd-btn button-color-gray" value="翌日">
 			</div>
 			<table class="zebra" id="customertable">
-				<thead style="display:block;">
 					<tr>
-						<th class="G03-colsize-vis_date"   >日時</th>
-						<th class="G03-colsize-name"       >お客様名</th>
+						<th class="G03-colsize-vis_date"   >店名</th>
+						<th class="G03-colsize-name"       >キャスト</th>
 						<th class="G03-colsize-address"    >住所</th>
 						<th class="G03-colsize-tel_no"     >電話番号</th>
-						<th class="G03-colsize-status"     >ステータス</th>
-						<th class="G03-colsize-kouji_date" >工事日</th>
-						<th class="G03-colsize-server_sync">サーバー送信</th>
+						<th class="G03-colsize-status"     >年齢</th>
+						<th class="G03-colsize-kouji_date" >在席／不在</th>
+						<th class="G03-colsize-server_sync">キャスト情報</th>
 					</tr>
-				</thead>
-				<tbody id="customertable-body-style" class="customertable-body-style">
 					<tr>
-						<td class="G03-colsize-vis_date">2015/05/25<br>10:00-11:00</td>
-						<td class="G03-colsize-name">鈴木　一郎</td>
-						<td class="G03-colsize-address">東京都世田谷区成城1-1-1</td>
+						<td class="G03-colsize-vis_date">キャバレンジャー</td>
+						<td class="G03-colsize-name">レッド　久枝</td>
+						<td class="G03-colsize-address">東京都新宿区西新宿1-1-1</td>
 						<td class="G03-colsize-tel_no">03-1111-1111</td>
-						<td class="G03-colsize-status"><input type="button" class="G03-ma-listarea-list-btn1" onClick="location.href ='./04_customerinfo.html';" value="契約成立"></td>
-						<td class="G03-colsize-kouji_date"><input type="button" class="G03-ma-listarea-list-btn2" value="未確定"></td>
-						<td class="G03-colsize-server_sync"><input type="button" class="G03-ma-listarea-list-btn1" value="送信済"></td>
+						<td class="G03-colsize-status">32</td>
+						<td class="G03-colsize-kouji_date"><input type="button" class="G03-ma-listarea-list-btn1" value="在席"></td>
+						<td class="G03-colsize-server_sync"><input type="button" class="G03-ma-listarea-list-btn3" value="詳細"></td>
 					</tr>
 					<tr>
-						<td class="G03-colsize-vis_date">2015/05/25<br>11:00-12:00</td>
-						<td class="G03-colsize-name">佐藤　次郎</td>
-						<td class="G03-colsize-address">東京都港区赤坂2-2-2</td>
+						<td class="G03-colsize-vis_date">キャバレンジャー</td>
+						<td class="G03-colsize-name">イエロー　雅美</td>
+						<td class="G03-colsize-address">東京都新宿区西新宿1-1-1</td>
+						<td class="G03-colsize-tel_no">03-1111-1111</td>
+						<td class="G03-colsize-status">29</td>
+						<td class="G03-colsize-kouji_date"><input type="button" class="G03-ma-listarea-list-btn1" value="在席"></td>
+						<td class="G03-colsize-server_sync"><input type="button" class="G03-ma-listarea-list-btn3" value="詳細"></td>
+					</tr>
+					<tr>
+						<td class="G03-colsize-vis_date">ホワイトシャツ</td>
+						<td class="G03-colsize-name">翔子</td>
+						<td class="G03-colsize-address">東京都墨田区錦糸町2-2-2</td>
 						<td class="G03-colsize-tel_no">03-2222-2222</td>
-						<td class="G03-colsize-status"><input type="button" class="G03-ma-listarea-list-btn1" onClick="location.href ='./04_customerinfo.html';" value="未成約"></td>
-						<td class="G03-colsize-kouji_date">-</td>
-						<td class="G03-colsize-server_sync"><input type="button" class="G03-ma-listarea-list-btn1" value="送信済"></td>
+						<td class="G03-colsize-status">19</td>
+						<td class="G03-colsize-kouji_date"><input type="button" class="G03-ma-listarea-list-btn2" value="不在"></td>
+						<td class="G03-colsize-server_sync"><input type="button" class="G03-ma-listarea-list-btn3" value="詳細"></td>
 					</tr>
 					<tr>
-						<td class="G03-colsize-vis_date">2015/05/25<br>13:00-14:00</td>
-						<td class="G03-colsize-name">山田　三郎</td>
-						<td class="G03-colsize-address">東京都港区赤坂3-3-3</td>
+						<td class="G03-colsize-vis_date">ホワイトシャツ</td>
+						<td class="G03-colsize-name">クミ</td>
+						<td class="G03-colsize-address">東京都墨田区錦糸町2-2-2</td>
+						<td class="G03-colsize-tel_no">03-2222-2222</td>
+						<td class="G03-colsize-status">24</td>
+						<td class="G03-colsize-kouji_date"><input type="button" class="G03-ma-listarea-list-btn1" value="在席"></td>
+						<td class="G03-colsize-server_sync"><input type="button" class="G03-ma-listarea-list-btn3" value="詳細"></td>
+					</tr>
+					<tr>
+						<td class="G03-colsize-vis_date">ホワイトシャツ</td>
+						<td class="G03-colsize-name">ケイコ</td>
+						<td class="G03-colsize-address">東京都墨田区錦糸町2-2-2</td>
+						<td class="G03-colsize-tel_no">03-2222-2222</td>
+						<td class="G03-colsize-status">24</td>
+						<td class="G03-colsize-kouji_date"><input type="button" class="G03-ma-listarea-list-btn2" value="不在"></td>
+						<td class="G03-colsize-server_sync"><input type="button" class="G03-ma-listarea-list-btn3" value="詳細"></td>
+					</tr>
+					<tr>
+						<td class="G03-colsize-vis_date">スプラッシュ</td>
+						<td class="G03-colsize-name">まさみ</td>
+						<td class="G03-colsize-address">東京都港区六本木3-4-5</td>
 						<td class="G03-colsize-tel_no">03-3333-3333</td>
-						<td class="G03-colsize-status"><input type="button" class="G03-ma-listarea-list-btn3" onClick="location.href ='./04_customerinfo.html';" value="ドラフト"></td>
-						<td class="G03-colsize-kouji_date"><input type="button" class="G03-ma-listarea-list-btn2" value="未確定"></td>
-						<td class="G03-colsize-server_sync"><input type="button" class="G03-ma-listarea-list-btn2" value="未送信"></td>
+						<td class="G03-colsize-status">21</td>
+						<td class="G03-colsize-kouji_date"><input type="button" class="G03-ma-listarea-list-btn1" value="在席"></td>
+						<td class="G03-colsize-server_sync"><input type="button" class="G03-ma-listarea-list-btn3" onClick="location.href ='./04_customerinfo.html';" value="詳細"></td>
 					</tr>
-					<tr>
-						<td class="G03-colsize-vis_date">2015/05/25<br>14:00-15:00</td>
-						<td class="G03-colsize-name">高橋　四郎</td>
-						<td class="G03-colsize-address">東京都新宿区新宿4-4-4</td>
-						<td class="G03-colsize-tel_no">03-4444-4444</td>
-						<td class="G03-colsize-status"><input type="button" class="G03-ma-listarea-list-btn3" onClick="location.href ='./04_customerinfo.html';" value="ドラフト"></td>
-						<td class="G03-colsize-kouji_date"><input type="button" class="G03-ma-listarea-list-btn2" value="未確定"></td>
-						<td class="G03-colsize-server_sync"><input type="button" class="G03-ma-listarea-list-btn2" value="未送信"></td>
-					</tr>
-					<tr>
-						<td class="G03-colsize-vis_date">2015/05/25<br>15:00-16:00</td>
-						<td class="G03-colsize-name">今井　五郎</td>
-						<td class="G03-colsize-address">東京都江戸川区南葛西5-5-5</td>
-						<td class="G03-colsize-tel_no">03-5555-5555</td>
-						<td class="G03-colsize-status"><input type="button" class="G03-ma-listarea-list-btn1" onClick="location.href ='./04_customerinfo.html';" value="契約成立"></td>
-						<td class="G03-colsize-kouji_date"><input type="button" class="G03-ma-listarea-list-btn1" value="確定"></td>
-						<td class="G03-colsize-server_sync"><input type="button" class="G03-ma-listarea-list-btn1" value="送信済"></td>
-					</tr>
-					<tr>
-						<td class="G03-colsize-vis_date">2015/05/25<br>16:00-17:00</td>
-						<td class="G03-colsize-name">小林　六郎</td>
-						<td class="G03-colsize-address">東京都江東区北砂6-6-6</td>
-						<td class="G03-colsize-tel_no">03-6666-6666</td>
-						<td class="G03-colsize-status"><input type="button" class="G03-ma-listarea-list-btn2" onClick="location.href ='./04_customerinfo.html';" value="未訪問"></td>
-						<td class="G03-colsize-kouji_date">-</td>
-						<td class="G03-colsize-server_sync"><input type="button" class="G03-ma-listarea-list-btn2" value="未送信"></td>
-					</tr>
-					<tr>
-						<td class="G03-colsize-vis_date">2015/05/25<br>18:00-19:00</td>
-						<td class="G03-colsize-name">竹中　七郎</td>
-						<td class="G03-colsize-address">東京都練馬区高野台7-7-7</td>
-						<td class="G03-colsize-tel_no">03-7777-7777</td>
-						<td class="G03-colsize-status"><input type="button" class="G03-ma-listarea-list-btn2" onClick="location.href ='./04_customerinfo.html';" value="未訪問"></td>
-						<td class="G03-colsize-kouji_date">-</td>
-						<td class="G03-colsize-server_sync"><input type="button" class="G03-ma-listarea-list-btn2" value="未送信"></td>
-					</tr>
-					<tr>
-						<td class="G03-colsize-vis_date">2015/05/25<br>20:00-21:00</td>
-						<td class="G03-colsize-name">前田　八郎</td>
-						<td class="G03-colsize-address">東京都目黒区中目黒8-8-8</td>
-						<td class="G03-colsize-tel_no">03-8888-8888</td>
-						<td class="G03-colsize-status"><input type="button" class="G03-ma-listarea-list-btn2" onClick="location.href ='./04_customerinfo.html';" value="未訪問"></td>
-						<td class="G03-colsize-kouji_date">-</td>
-						<td class="G03-colsize-server_sync"><input type="button" class="G03-ma-listarea-list-btn2" value="未送信"></td>
-					</tr>
-				</tbody>
 			</table>
 		</div><!--/#main-area-->
 	</article>
 
 	<footer>
-		<p class="footer-button-left"><input type="button"  class="button-style button-color-red" onClick="location.href ='./04_customerinfo.html';" value="新規申込"></p>
-		<p class="footer-button-right"><input type="button"  class="button-style button-color-gray" onClick="location.href ='./02_menu.html';" value="メニュー/戻る"></p>
-		<p class="footer-button-right"><input type="button"  class="button-style button-color-skyblue" value="日内予定同期"></p>
+		<p class="footer-button-right"><input type="button"  class="button-style button-color-gray" onClick="location.href ='./02_menu.html';" value="戻る"></p>
 	</footer>
 </body>
 </html>
